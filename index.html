@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f1e8">
+<title>Zephýr Café — Um respiro nos Ingleses</title>
+<meta name="description" content="Cafés especiais, brunch e doces artesanais. Encontre seu momento no Zephýr Café, em Ingleses, Florianópolis. Segunda a sábado, das 8h às 19h.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Italiana&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f5f1e8;--paper:#eae5d9;--ink:#432c2d;--muted:#696057;--rust:#955840;--sage:#d9decc;--line:rgba(67,44,45,.18);--serif:'Italiana',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--gutter:clamp(20px,5vw,80px);--header:88px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header) + 18px)}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.7 var(--sans);-webkit-font-smoothing:antialiased;overflow-wrap:break-word}main,section,article,nav,header,footer,div{min-width:0}button,input,textarea{font:inherit}button{cursor:pointer;color:inherit;border:0;background:none}a{color:inherit;text-decoration:none}img{display:block;max-width:100%;height:auto}svg{max-width:100%}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:400}h1,h2{font-family:var(--serif);line-height:1.08;letter-spacing:-.035em}h1{font-size:clamp(58px,7.2vw,104px)}h2{font-size:clamp(42px,5.1vw,76px)}em{font-family:Georgia,serif;font-weight:400;font-size:.9em;letter-spacing:-.045em}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--rust);outline-offset:4px}[hidden]{display:none!important}::selection{background:var(--ink);color:var(--cream)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);overflow:hidden;white-space:nowrap}.skip-link{position:fixed;z-index:100;left:16px;top:-100px;background:var(--cream);padding:12px 18px}.skip-link:focus{top:10px}#scroll-progress{position:fixed;z-index:100;left:0;right:0;top:0;height:3px;background:var(--rust);transform:scaleX(0);transform-origin:left}
+.site-header{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--header);padding:12px var(--gutter);background:rgba(245,241,232,.98);border-bottom:1px solid var(--line)}.site-header.scrolled{box-shadow:0 3px 20px #432c2d08}.brand{font:50px/.85 var(--serif);letter-spacing:-4px;display:inline-flex;flex:none;flex-direction:column;align-items:center}.brand span{font:9px/1 var(--sans);letter-spacing:4px;margin:10px 0 0 6px}.desktop-nav{display:flex;gap:clamp(16px,2vw,28px);font-size:12px;font-weight:500}.desktop-nav a{padding:10px 0;white-space:nowrap}.desktop-nav a:hover{color:var(--rust)}.nav-reserve{display:flex;align-items:center;gap:18px;font-size:12px;white-space:nowrap;border-bottom:1px solid currentColor;padding:8px 0}.nav-reserve span{font-size:23px}.menu-toggle{display:none;width:44px;height:44px;flex:none;padding:10px}.menu-toggle span{display:block;height:1px;width:24px;background:currentColor;margin:6px 0;transition:transform .2s}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(3.5px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}.mobile-menu{position:absolute;top:100%;left:0;right:0;background:var(--cream);padding:14px var(--gutter) 24px;border-bottom:1px solid var(--line);box-shadow:0 14px 20px #432c2d0a;max-height:calc(100dvh - var(--header));overflow-y:auto}.mobile-menu a{display:block;padding:13px 0;border-bottom:1px solid var(--line);font-size:16px}
+.hero{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:34px clamp(30px,6vw,90px);padding:70px var(--gutter) 45px;max-width:1600px;margin:auto}.hero-copy{position:relative;z-index:2;translate:0 var(--copy-drift,0px)}.eyebrow,.tiny-label{font-size:11px;line-height:1.6;font-weight:600;letter-spacing:1.3px}.hero .eyebrow{display:flex;gap:10px;align-items:center}.small-star{font-size:24px;line-height:1}.hero h1{margin-top:25px}.hero-description{font-size:15px;color:var(--muted);line-height:1.9;margin:28px 0}.button{display:inline-flex;justify-content:space-between;align-items:center;gap:28px;min-height:54px;max-width:100%;padding:15px 23px;font-size:13px;line-height:1.5;border:1px solid transparent;transition:background .2s,color .2s,transform .2s}.button span{font-size:22px;flex:none;line-height:1}.button:hover{transform:translateY(-2px)}.button-dark{background:var(--ink);color:var(--cream)}.button-dark:hover{background:#64433d}.button-light{background:var(--cream);color:var(--ink)}.button-outline{border-color:var(--ink)}.button-outline:hover{background:var(--ink);color:var(--cream)}.hero-note{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);margin-top:18px}.status-dot{width:6px;height:6px;flex:none;border-radius:50%;background:#627752}.status-dot:has(+.is-closed){background:#977b61}.hero-art{position:relative;width:100%;max-width:460px;justify-self:end;translate:0 var(--hero-drift,0px)}.photo-frame{position:relative;aspect-ratio:1005/1280;overflow:hidden;background:#c9b6a0;border-radius:calc(47% - var(--hero-open,0)*36%) calc(47% - var(--hero-open,0)*36%) 3px 3px}.photo-frame .hero-photo{width:100%;height:100%;object-fit:cover;transform:scale(1.01);filter:saturate(.94)}.photo-shade{position:absolute;inset:0;background:linear-gradient(transparent 65%,#241c1b77)}.hero-photo-caption{position:absolute;bottom:22px;left:22px;right:22px;font-size:10px;letter-spacing:1.1px;line-height:1.6;color:#fff}.hero-coordinates{position:absolute;right:12px;top:48%;writing-mode:vertical-rl;font-size:9px;letter-spacing:2px;color:var(--cream);text-shadow:0 1px 3px #0009}.circle-stamp{position:absolute;top:24px;right:18px;width:112px;height:112px;display:grid;place-items:center;background:var(--sage);border-radius:50%;box-shadow:0 3px 15px #432c2d16}.circle-stamp svg{position:absolute;width:100%;height:100%;animation:stamp-arrive 4s ease-out 1}.circle-stamp text{font:10.5px var(--sans);letter-spacing:1.7px;fill:currentColor}.circle-stamp>span{font-size:46px}.hero-wordmark{position:absolute;z-index:-1;bottom:5px;left:var(--gutter);right:var(--gutter);font:clamp(130px,22vw,320px)/.8 var(--serif);letter-spacing:-.06em;opacity:.045;overflow:hidden;pointer-events:none}.scroll-cue{grid-column:1/-1;display:flex;align-items:center;gap:20px;font-size:10px;letter-spacing:1.4px;padding-top:12px;justify-self:start}.scroll-cue>span:last-child{font-size:24px}.ticker{overflow:hidden;background:var(--sage);padding:15px 0}.ticker-track{display:flex;align-items:center;gap:46px;width:max-content;animation:ticker-arrive 4s ease-out 1}.ticker span{font-size:11px;letter-spacing:2px;white-space:nowrap}.ticker i{font-size:22px;font-style:normal}
+.section-pad{padding:90px var(--gutter);max-width:1600px;margin:auto}.section-top{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:45px}.tiny-label{font-size:10px;color:var(--muted);text-align:right}.essence-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(35px,8vw,120px);align-items:center}.essence-copy p{font-size:15px;line-height:1.9;color:var(--muted);margin-bottom:18px}.wind-mark{display:block;color:var(--rust);font-size:45px;line-height:1;margin-bottom:20px}.text-link{display:inline-flex;align-items:center;gap:20px;border-bottom:1px solid currentColor;font-size:13px;line-height:1.6;padding-bottom:5px}.text-link span{font-size:20px}.amenities{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;border-top:1px solid var(--line);margin-top:55px;padding-top:28px}.amenities>span{display:flex;align-items:center;gap:10px;font-size:12px;line-height:1.6}.amenities svg{width:23px;height:23px;flex:none;stroke:currentColor;stroke-width:1.3;fill:none}.scroll-word{transition:color .2s}.js-scroll .scroll-word{color:#81746c}.js-scroll .scroll-word.lit{color:var(--ink)}
+.menu-section{max-width:none;background:var(--paper)}.menu-section>*{max-width:1440px;margin-left:auto;margin-right:auto}.menu-heading,.moments-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:36px}.menu-heading>p,.moments-heading>p{font-size:14px;line-height:1.9;color:var(--muted);padding-bottom:5px}.menu-filters{display:flex;flex-wrap:wrap;gap:10px;padding:8px 0;margin-bottom:25px}.menu-filters button{border:1px solid #432c2d55;border-radius:30px;min-height:44px;padding:10px 17px;font-size:12px;line-height:1.4;transition:background .2s,color .2s}.menu-filters button.active,.menu-filters button:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}.menu-filters button span{font-size:10px;margin-left:12px;opacity:.8}.menu-filters button:focus-visible{outline-offset:2px}.menu-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 25px}.menu-image{display:block;position:relative;aspect-ratio:4/5;overflow:hidden;background:#cfbda6}.menu-image img{width:100%;height:100%;object-fit:cover;transition:transform .65s ease}.menu-image:hover img{transform:scale(1.04)}.photo-tag{position:absolute;top:12px;left:12px;right:auto;max-width:calc(100% - 24px);background:var(--cream);padding:6px 9px;font-size:9px;letter-spacing:.7px;line-height:1.5}.card-arrow{position:absolute;right:13px;bottom:13px;border-radius:50%;width:36px;height:36px;display:grid;place-items:center;font-size:23px;line-height:1;background:var(--cream)}.card-meta{display:flex;justify-content:space-between;gap:10px;font-size:10px;letter-spacing:.8px;line-height:1.6;color:var(--muted);margin:16px 0 8px}.menu-card h3{font:32px/1.15 var(--serif);letter-spacing:-.02em}.menu-card p{font-size:14px;color:var(--muted);line-height:1.8;margin-top:10px}.menu-bottom{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-top:40px;padding-top:25px;border-top:1px solid var(--line)}.menu-bottom p{font-size:13px}.menu-bottom p span{color:var(--muted);font-size:12px}
+.ritual{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);position:relative;background:var(--ink);color:var(--cream)}.ritual-sticky{position:sticky;top:var(--header);align-self:start;height:calc(100svh - var(--header));max-height:1000px;min-height:360px}.ritual-visual{position:relative;width:100%;height:100%;overflow:hidden;background:#77614f}.ritual-visual>img{width:100%;height:100%;object-fit:cover;filter:brightness(.65) saturate(.8);transition:opacity 180ms ease,transform .8s ease;transform:scale(1.015)}.ritual-visual.is-changing>img{transform:scale(1.055)}.ritual-overlay{position:absolute;inset:0;background:linear-gradient(#241b1d33,transparent 30%,#241b1d77)}.ritual-visual>.eyebrow{position:absolute;top:30px;left:7%;right:7%;font-size:10px}.ritual-scroll-hint{position:absolute;top:62px;left:7%;display:flex;align-items:center;gap:14px;font-size:11px}.ritual-scroll-hint>span{font-size:20px}.ritual-photo-footer{position:absolute;left:7%;right:7%;bottom:35px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px;line-height:1.6}.ritual-photo-footer>span:last-child{font-size:10px;white-space:nowrap}.ritual-photo-footer b{font:28px var(--serif)}.ritual-progress-track{position:absolute;left:7%;right:7%;bottom:20px;height:2px;background:#ffffff44}.ritual-progress-track>span{display:block;width:100%;height:100%;background:var(--cream);transform:scaleX(0);transform-origin:left}.wind-lines{position:absolute;left:0;top:28%;width:100%;height:45%;fill:none;stroke:var(--cream);stroke-width:.7;opacity:.3;pointer-events:none}.ritual-step{min-height:78svh;padding:80px clamp(30px,6vw,100px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.ritual-step .eyebrow{font-size:11px;color:#dbc7b4;margin-bottom:28px}.ritual-step h2{font-size:clamp(40px,4.5vw,66px)}.ritual-step p{font-size:15px;line-height:1.9;color:#e0d3c6;margin-top:25px;max-width:360px}.ritual-step .text-link{margin-top:28px}.step-line{height:1px;width:45px;background:#cbbeb1;margin-top:30px}.ritual-step h2,.ritual-step p{transition:transform .5s ease}.ritual-step.active h2{transform:translateY(-3px)}
+.coffee-finder{max-width:none;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:clamp(25px,5vw,80px);background:var(--sage);padding-top:65px;padding-bottom:65px}.finder-symbol{font-size:105px;line-height:1}.coffee-finder h2{font-size:clamp(38px,4.1vw,62px);margin:16px 0}.coffee-finder p{font-size:14px;color:#615e51}.coffee-finder>.button{justify-self:end}.coffee-finder .eyebrow{font-size:10px}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:22px}.gallery-photo{position:relative;width:100%;aspect-ratio:3/4;padding:0;overflow:hidden;background:#cbb9a3;text-align:left}.gallery-photo img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}.gallery-photo:nth-child(2){margin-top:25px}.gallery-photo:nth-child(3){margin-top:50px}.gallery-photo:hover img{transform:scale(1.035)}.gallery-photo:after{content:'';position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#241b1dbb);pointer-events:none}.gallery-photo>span{position:absolute;z-index:1;left:18px;right:18px;bottom:18px;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#fff;font-size:10px;letter-spacing:.9px;line-height:1.6}.gallery-photo b{font-size:26px;font-weight:400;flex:none}.gallery-footnote{font-size:12px;color:var(--muted);margin-top:25px;text-align:right}
+.visit{max-width:none;background:var(--paper)}.visit>*{max-width:1440px;margin-left:auto;margin-right:auto}.visit-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(35px,7vw,100px);align-items:center}.visit-intro{font-size:15px;line-height:1.9;color:var(--muted);margin:24px 0}.visit address{font-style:normal;font-size:14px;line-height:1.9}.address-tools{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-top:10px}.address-tools .text-link{min-height:40px;padding:8px 0;font-size:12px;border-color:var(--line)}#copy-feedback{font-size:12px;color:#50603d}#copy-address.copied{color:#50603d}.hours{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 20px;margin:24px 0;padding:19px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px}.hours strong{font-weight:500}.hours span:last-child{font-size:12px;color:var(--muted);text-align:right}.holiday-note{font-size:12px;color:var(--muted);margin:-10px 0 24px}.visit-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px}.location-card{border:1px solid var(--line)}.map-art{position:relative;aspect-ratio:1.15;overflow:hidden;background:#dce0cd;background-image:repeating-linear-gradient(15deg,transparent 0,transparent 55px,#b7c1a52b 56px,#b7c1a52b 65px)}.map-art:before{content:'';position:absolute;top:-30%;right:-45%;width:75%;height:180%;transform:rotate(22deg);border-left:17px solid #e5dfbd;border-radius:47% 20% 0 45%;background:#b6c9c2}.map-sea{position:absolute;right:14px;top:37%;writing-mode:vertical-rl;font-size:9px;letter-spacing:3px;color:#647d72}.map-neighborhood{position:absolute;top:18%;left:13%;font-size:11px;letter-spacing:3px;color:#5d6a53}.map-road{position:absolute;background:var(--cream);border:1px solid #c7ceb6}.road-one{height:27px;width:160%;left:-30%;top:50%;transform:rotate(-32deg)}.road-two{height:14px;width:150%;left:-60%;top:50%;transform:rotate(62deg)}.road-three{height:12px;width:150%;left:-10%;top:30%;transform:rotate(62deg)}.road-four{height:12px;width:150%;left:-30%;top:85%;transform:rotate(-32deg)}.map-pin{position:absolute;top:45%;left:39%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center}.map-pin>span{display:grid;place-items:center;width:58px;height:58px;transform:rotate(-45deg);border-radius:50% 50% 50% 0;background:var(--ink);color:var(--cream);font:italic 36px Georgia,serif;line-height:1;box-shadow:0 4px 20px #432c2d20}.map-pin i{transform:rotate(45deg)}.map-pin b{position:absolute;top:80px;padding:7px 13px;background:var(--cream);font-size:11px;font-weight:500;white-space:nowrap}.map-road-label{position:absolute;top:62%;left:7%;transform:rotate(-32deg);font-size:9px;color:#667057}.map-legend{position:absolute;right:12px;bottom:12px;font-size:8px;letter-spacing:.7px;color:#667057}.map-link{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:20px;background:var(--cream)}.map-link b{display:block;font-size:15px;font-weight:500}.map-link small{font-size:12px;color:var(--muted)}.map-link>span:last-child{font-size:25px}
+.faq{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:clamp(35px,7vw,100px)}.faq h2{font-size:56px;margin:18px 0}.faq>div>p{font-size:14px;color:var(--muted)}.faq .text-link{margin-top:8px}.faq-list{border-top:1px solid var(--line)}.faq-list details{padding:21px 0;border-bottom:1px solid var(--line)}.faq-list summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;cursor:pointer;font-size:15px;font-weight:500;min-height:28px}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary span{font-size:25px;font-weight:400;transition:transform .2s}.faq-list details[open] summary span{transform:rotate(45deg)}.faq-list details p{font-size:14px;line-height:1.9;color:var(--muted);margin-top:15px}.faq-list details a{text-decoration:underline}.footer{background:var(--ink);color:var(--cream);padding:55px var(--gutter) 28px}.footer-top,.footer-bottom{max-width:1440px;margin:auto}.footer-top{display:grid;grid-template-columns:minmax(100px,1fr) minmax(0,1.3fr) minmax(0,1fr) auto;align-items:center;gap:28px;padding-bottom:40px}.footer .brand{font-size:62px;justify-self:start}.footer-top p{font:32px/1.2 var(--serif)}.footer-social{display:flex;flex-direction:column;gap:10px;justify-self:center;font-size:13px}.back-top{display:grid;place-items:center;width:44px;height:44px;border:1px solid #f5f1e866;border-radius:50%;font-size:24px}.footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px;padding-top:24px;border-top:1px solid #f5f1e833;font-size:11px;color:#d4c8bb}.footer-bottom>span:nth-child(2){font-size:10px;letter-spacing:1px}.mobile-cta{display:none}
+.chapter-nav{position:fixed;right:10px;top:50%;transform:translateY(-50%);z-index:25;display:flex;flex-direction:column;gap:5px;padding:10px 6px;border:1px solid var(--line);border-radius:35px;background:#f5f1e8f5}.chapter-nav a{position:relative;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;font-size:9px}.chapter-nav a.active{background:var(--ink);color:var(--cream)}.chapter-nav a i{display:none}.chapter-nav a b{display:none;position:absolute;right:42px;background:var(--cream);color:var(--ink);font-size:11px;font-weight:500;white-space:nowrap;padding:7px 12px;border:1px solid var(--line)}.chapter-nav a:hover b,.chapter-nav a:focus-visible b{display:block}.chapter-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+dialog{color:var(--ink);padding:0;border:0;width:min(900px,calc(100% - 28px));max-width:calc(100% - 28px);max-height:calc(100dvh - 28px);overflow:auto;background:var(--cream)}dialog::backdrop{background:#241b1ddd;backdrop-filter:blur(4px)}body.dialog-open{overflow:hidden}.dialog-close{position:absolute;right:12px;top:12px;z-index:4;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--cream);font-size:30px;line-height:1}.photo-dialog[open]{display:grid;grid-template-rows:minmax(0,1fr) auto;height:min(850px,calc(100dvh - 28px));overflow:hidden}.photo-viewer{min-height:0;position:relative;display:grid;place-items:center;background:#241b1d}.photo-viewer #dialog-image{width:100%;height:100%;min-height:0;object-fit:contain}.photo-nav{position:absolute;top:50%;z-index:3;transform:translateY(-50%);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--cream);font-size:24px}.photo-prev{left:10px}.photo-next{right:10px}.photo-dialog-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 20px}.photo-dialog-footer p{font-size:13px;line-height:1.6}.photo-dialog-footer>span{flex:none;font-size:12px;color:var(--muted)}.coffee-dialog{width:min(520px,calc(100% - 28px));padding:35px clamp(22px,5vw,44px)}.quiz-star{display:block;font-size:40px;line-height:1;color:var(--rust);margin-bottom:24px}.coffee-dialog>.eyebrow{font-size:10px}.coffee-dialog h2{font-size:clamp(36px,7vw,50px);margin:18px 0 28px}.coffee-dialog #quiz-options{display:grid;gap:10px}.coffee-dialog #quiz-options button{display:flex;align-items:center;justify-content:space-between;gap:15px;min-height:48px;padding:12px 15px;border:1px solid var(--line);text-align:left;font-size:14px}.coffee-dialog #quiz-options button:hover{background:var(--sage)}#quiz-result h3{font:32px/1.15 var(--serif);margin:12px 0}#quiz-result p{font-size:14px;color:var(--muted);line-height:1.85;margin-bottom:18px}#quiz-result .button{margin-bottom:10px}.quiz-reset{margin-top:18px}.reveal{opacity:1;transform:none}.reveal.in-view{animation:arrive .65s both}.menu-card:nth-child(3n+2).in-view{animation-delay:60ms}.menu-card:nth-child(3n).in-view{animation-delay:120ms}
+@keyframes arrive{from{transform:translateY(18px)}to{transform:translateY(0)}}@keyframes stamp-arrive{from{transform:rotate(-25deg)}to{transform:rotate(0)}}@keyframes ticker-arrive{from{transform:translateX(0)}to{transform:translateX(-45px)}}
+@media(min-width:1600px){.menu-section,.visit,.coffee-finder{padding-left:max(var(--gutter),calc((100vw - 1440px)/2));padding-right:max(var(--gutter),calc((100vw - 1440px)/2))}}
+@media(max-width:1100px){.desktop-nav,.chapter-nav{display:none}.menu-toggle{display:block}.site-header{gap:20px}.nav-reserve{margin-left:auto}.hero{gap:32px;padding-top:50px}.hero .eyebrow{font-size:10px;letter-spacing:.7px}.hero-description{font-size:14px}.hero-art{max-width:400px}.circle-stamp{width:94px;height:94px}.circle-stamp>span{font-size:39px}.essence-grid{gap:40px}.menu-card h3{font-size:28px}.coffee-finder{grid-template-columns:auto minmax(0,1fr);gap:25px 40px}.coffee-finder>.button{grid-column:2;justify-self:start}.finder-symbol{grid-row:1/3;align-self:center}.gallery-photo>span{font-size:9px;left:12px;right:12px;bottom:12px}.footer-top p{font-size:28px}}
+@media(max-width:900px){.hero{grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:25px}.hero h1{font-size:clamp(50px,7.5vw,68px)}.hero .eyebrow{font-size:9px}.hero .button{font-size:12px;padding:13px 16px;gap:20px}.hero-note{font-size:11px}.section-pad{padding-top:65px;padding-bottom:65px}.menu-grid{gap:32px 20px}.menu-card h3{font-size:26px}.menu-card p{font-size:13px}.essence-grid{grid-template-columns:minmax(0,1fr)}.essence-copy{max-width:620px}.amenities{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 30px;margin-top:35px}.visit-grid{gap:30px}.visit-actions{gap:15px}.visit-actions .button{font-size:12px;gap:20px;padding:13px 17px}.visit-actions .text-link{font-size:12px}.faq{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:35px}.footer-top{grid-template-columns:minmax(80px,1fr) minmax(0,1.3fr) auto}.footer-social{grid-column:2;grid-row:2;justify-self:start;flex-direction:row;gap:20px}.back-top{grid-column:3;grid-row:1}.footer-top p{font-size:28px}}
+@media(max-width:760px){
+ :root{--header:72px;--gutter:24px}h1{font-size:clamp(52px,12.5vw,80px)}h2{font-size:clamp(40px,9.5vw,60px)}.site-header{padding-top:10px;padding-bottom:10px;gap:15px}.site-header .brand{font-size:43px}.site-header .brand span{font-size:8px;letter-spacing:3px;margin-top:8px}.nav-reserve{display:none}.menu-toggle{margin-left:auto}.hero{grid-template-columns:minmax(0,1fr);gap:30px;padding-top:38px;padding-bottom:32px}.hero-copy{translate:none}.hero h1{font-size:clamp(52px,12.5vw,80px);margin-top:21px}.hero .eyebrow{font-size:10px;letter-spacing:.7px;align-items:flex-start}.hero .small-star{font-size:21px}.hero-description{font-size:15px;margin:22px 0}.hero-description br{display:none}.hero .button{font-size:13px;min-height:52px;padding:14px 20px}.hero-note{font-size:12px;margin-top:16px}.hero-art{width:100%;max-width:420px;justify-self:center;translate:none}.hero-photo-caption{font-size:10px;left:18px;right:18px;bottom:18px}.circle-stamp{right:14px;top:20px;width:88px;height:88px}.circle-stamp>span{font-size:36px}.hero-coordinates{font-size:8px;right:10px}.hero-wordmark{display:none}.scroll-cue{font-size:10px;padding-top:0}.ticker{padding:12px 0}.ticker-track{gap:28px}.ticker span{font-size:10px;letter-spacing:1.5px}.ticker i{font-size:18px}.section-pad{padding-top:55px;padding-bottom:55px}.section-top{margin-bottom:30px;padding-bottom:18px;gap:15px;align-items:flex-start}.eyebrow{font-size:10px;letter-spacing:1px}.tiny-label{font-size:9px;max-width:140px;letter-spacing:.6px}.essence-grid{gap:28px}.essence-copy p{font-size:15px}.wind-mark{font-size:38px;margin-bottom:16px}.amenities{gap:20px 16px;padding-top:25px}.amenities>span{font-size:12px}.text-link{font-size:13px}.menu-heading,.moments-heading{display:block;margin-bottom:26px}.menu-heading>p,.moments-heading>p{font-size:14px;margin-top:20px}.menu-heading>p br,.moments-heading>p br{display:none}.menu-section .section-top .text-link{font-size:11px;gap:8px;text-align:right;flex-shrink:0}.menu-section .section-top .text-link>span{font-size:17px}.menu-filters{gap:9px;margin-bottom:20px}.menu-filters button{font-size:12px;padding:10px 14px;min-height:44px}.menu-filters button span{font-size:10px;margin-left:8px}.menu-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 16px}.menu-card h3{font-size:25px;line-height:1.12}.menu-card p{font-size:13px;line-height:1.8}.card-meta{font-size:10px;letter-spacing:.3px;gap:6px;margin-top:13px}.photo-tag{top:8px;left:8px;max-width:calc(100% - 16px);font-size:8px;letter-spacing:.3px;line-height:1.5;padding:5px 7px}.card-arrow{width:30px;height:30px;font-size:20px;right:9px;bottom:9px}.menu-bottom{display:block;margin-top:30px;padding-top:22px}.menu-bottom p{font-size:13px}.menu-bottom p span{font-size:12px}.menu-bottom .button{margin-top:19px;font-size:13px;min-height:50px}.ritual{display:block}.ritual-sticky{top:var(--header);height:32svh;min-height:200px;max-height:310px}.ritual-visual>.eyebrow{font-size:9px;top:20px;left:6%;right:6%}.ritual-scroll-hint{top:45px;left:6%;font-size:10px}.ritual-photo-footer{left:6%;right:6%;bottom:28px;font-size:11px;gap:18px}.ritual-photo-footer b{font-size:26px}.ritual-progress-track{left:6%;right:6%;bottom:15px}.ritual-step{min-height:60svh;padding:54px var(--gutter)}.ritual-step h2{font-size:clamp(40px,9.5vw,58px)}.ritual-step p{font-size:15px;margin-top:23px;max-width:440px}.ritual-step .eyebrow{font-size:10px;margin-bottom:23px}.ritual-step .text-link{font-size:13px}.coffee-finder{grid-template-columns:minmax(0,1fr) auto;gap:22px 18px}.finder-symbol{grid-column:2;grid-row:1;font-size:64px;align-self:start;margin-top:36px}.coffee-finder>div:nth-child(2){grid-column:1;grid-row:1}.coffee-finder h2{font-size:clamp(36px,8vw,49px)}.coffee-finder .eyebrow{font-size:9px;letter-spacing:.7px}.coffee-finder p{font-size:14px}.coffee-finder p br{display:none}.coffee-finder>.button{grid-column:1/-1;justify-self:start;font-size:13px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.gallery-photo:first-child{grid-column:1/-1;aspect-ratio:6/5}.gallery-photo:nth-child(2),.gallery-photo:nth-child(3){margin-top:0;aspect-ratio:3/4}.gallery-photo>span{font-size:9px;letter-spacing:.6px;line-height:1.7;left:12px;right:12px;bottom:12px}.gallery-photo b{font-size:23px}.gallery-footnote{text-align:left;font-size:12px;margin-top:18px}.moments .section-top .text-link{font-size:11px;gap:8px}.visit-grid{grid-template-columns:minmax(0,1fr);gap:32px}.visit-intro{font-size:15px;margin:22px 0}.visit address{font-size:14px}.address-tools .text-link{min-height:44px;font-size:13px}.hours{font-size:13px;gap:10px 15px;margin:23px 0}.hours span:last-child{font-size:12px}.holiday-note{font-size:12px;line-height:1.8}.visit-actions .button,.visit-actions .text-link{font-size:13px}.visit-actions .button{padding:14px 20px}.map-art{aspect-ratio:1.2}.map-link{padding:18px}.map-link small{font-size:12px}.faq{grid-template-columns:minmax(0,1fr);gap:28px}.faq h2{font-size:46px;margin:16px 0}.faq-list summary{font-size:15px}.faq-list details{padding:20px 0}.faq-list details p{font-size:14px}.footer{padding-top:42px;padding-bottom:calc(85px + env(safe-area-inset-bottom))}.footer-top{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 20px;padding-bottom:28px}.footer .brand{font-size:54px}.footer-top p{font-size:27px;justify-self:end}.footer-social{grid-column:1;grid-row:2;justify-self:start;flex-direction:row;flex-wrap:wrap;gap:12px 20px;font-size:12px}.back-top{grid-column:2;grid-row:2;justify-self:end}.footer-bottom{padding-top:22px;font-size:11px}.footer-bottom>span:nth-child(2){order:3;width:100%;font-size:9px;letter-spacing:.7px}.mobile-cta{position:fixed;bottom:0;left:0;right:0;z-index:35;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding-bottom:env(safe-area-inset-bottom);background:var(--cream);box-shadow:0 -3px 20px #432c2d15}.mobile-cta a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding:15px 18px;font-size:12px;line-height:1.5}.mobile-cta a:last-child{background:var(--ink);color:var(--cream)}.mobile-cta a span{font-size:20px;flex:none}.photo-dialog-footer{padding:14px 16px;gap:15px}.photo-dialog-footer p{font-size:12px}.photo-dialog-footer>span{font-size:11px}.photo-nav{width:44px;height:44px}.photo-prev{left:8px}.photo-next{right:8px}.dialog-close{right:10px;top:10px}.coffee-dialog{padding-top:30px;padding-bottom:30px}.coffee-dialog h2{font-size:42px}.coffee-dialog #quiz-options button{font-size:14px}.menu-card:nth-child(3n+2).in-view,.menu-card:nth-child(3n).in-view{animation-delay:0ms}
+}
+@media(max-width:399px){:root{--gutter:20px}.hero h1{font-size:clamp(47px,13vw,52px)}h2{font-size:39px}.hero .eyebrow{font-size:9px;letter-spacing:.4px}.menu-grid{grid-template-columns:minmax(0,1fr);gap:30px}.menu-image{aspect-ratio:1/1.05}.menu-card h3{font-size:30px}.menu-card p{font-size:14px}.card-meta{font-size:11px}.photo-tag{font-size:10px;padding:6px 9px}.amenities{grid-template-columns:minmax(0,1fr);gap:17px}.finder-symbol{font-size:46px}.coffee-finder h2{font-size:35px}.coffee-finder .eyebrow{font-size:9px}.gallery{gap:12px}.gallery-photo>span{font-size:8px;left:10px;right:10px}.gallery-photo b{font-size:20px}.hours{grid-template-columns:minmax(0,1fr) auto;font-size:12px}.hours span:last-child{max-width:140px;font-size:11px}.footer-top p{font-size:24px}.mobile-cta a{font-size:11px;padding:15px 14px}.coffee-dialog h2{font-size:37px}}
+@media(max-width:760px) and (max-height:600px){.ritual-sticky{position:relative;top:auto;height:auto;min-height:0;max-height:none;aspect-ratio:16/9}.ritual-step{min-height:0;padding-top:45px;padding-bottom:45px}.ritual-scroll-hint{display:none}.hero-art{max-width:340px}.photo-dialog[open]{height:calc(100dvh - 16px);max-height:calc(100dvh - 16px)}.photo-dialog-footer{padding:10px 15px}.photo-dialog-footer p{font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.hero-copy,.hero-art,.hero-wordmark{translate:none!important}.photo-frame{border-radius:47% 47% 3px 3px}.js-scroll .scroll-word{color:var(--ink)}.ritual-visual>img,.ritual-visual.is-changing>img,.ritual-step.active h2{transform:none}}
+
+</style><link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMzIiIGZpbGw9IiM0YjI5MmEiLz48dGV4dCB4PSIzMiIgeT0iNDUiIGZpbGw9IiNmNWYxZTgiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLHNlcmlmIiBmb250LXNpemU9IjQ4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXN0eWxlPSJpdGFsaWMiPno8L3RleHQ+PC9zdmc+Cg==" type="image/svg+xml">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Ir para o conteúdo</a>
+<div id="scroll-progress" aria-hidden="true"></div>
+<header class="site-header">
+<a class="brand" href="#inicio" aria-label="Zephýr Café, início">zephýr<span>CAFÉ</span></a>
+<nav class="desktop-nav" aria-label="Navegação principal"><a href="#essencia">A nossa essência</a><a href="#cardapio">Cardápio</a><a href="#momentos">O espaço</a><a href="#visite">Encontre a gente</a></nav>
+<a class="nav-reserve" href="https://wa.me/5548992034828?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20no%20Zeph%C3%BDr." target="_blank" rel="noopener">Reserve seu momento <span aria-hidden="true">↗</span></a>
+<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Navegação móvel" hidden><a href="#essencia">A nossa essência</a><a href="#cardapio">Cardápio</a><a href="#momentos">O espaço</a><a href="#visite">Encontre a gente</a><a href="https://wa.me/5548992034828" target="_blank" rel="noopener">Reservar pelo WhatsApp ↗</a></nav>
+</header>
+<nav class="chapter-nav" id="chapter-nav" aria-label="Explore os momentos da página"><span id="chapter-label" class="chapter-label">Siga os bons ventos</span><a href="#essencia" data-label="A essência" aria-label="A essência"><span>01</span><i aria-hidden="true"></i><b>A essência</b></a><a href="#cardapio" data-label="Os sabores" aria-label="Os sabores"><span>02</span><i aria-hidden="true"></i><b>Os sabores</b></a><a href="#ritual" data-label="O seu ritmo" aria-label="O seu ritmo"><span>03</span><i aria-hidden="true"></i><b>O seu ritmo</b></a><a href="#momentos" data-label="Os detalhes" aria-label="Os detalhes"><span>04</span><i aria-hidden="true"></i><b>Os detalhes</b></a><a href="#visite" data-label="Como chegar" aria-label="Como chegar"><span>05</span><i aria-hidden="true"></i><b>Como chegar</b></a></nav>
+<main id="main">
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> CAFÉ ESPECIAL · INGLESES, FLORIANÓPOLIS</p><h1 id="hero-title">A vida pede<br>uma <em>boa pausa.</em></h1><p class="hero-description">Um café com calma. Um encontro sem pressa.<br>Deixe os bons ventos trazerem você até aqui.</p><a class="button button-dark" href="#cardapio">Descubra seus favoritos <span aria-hidden="true">↗</span></a><div class="hero-note"><span class="status-dot" aria-hidden="true"></span><span id="open-status">Segunda a sábado · 8h às 19h</span></div></div>
+<div class="hero-art"><div class="photo-frame"><img class="hero-photo" src="./1000510500.jpg" alt="Fachada do Zephýr Café em Ingleses, com janelas em arco e letreiro verde" width="1005" height="1280" style="object-position:50% 46%" fetchpriority="high"><div class="photo-shade"></div></div><div class="circle-stamp" aria-hidden="true"><svg viewBox="0 0 140 140"><defs><path id="stamp-path" d="M70,70 m-53,0 a53,53 0 1,1 106,0 a53,53 0 1,1 -106,0"/></defs><text><textPath href="#stamp-path">CAFÉ COM ALMA · TEMPO COM CALMA · </textPath></text></svg><span>✳</span></div><span class="hero-photo-caption">ABRA A PORTA. DEIXE A PRESSA LÁ FORA.</span><span class="hero-coordinates">27°26′S &nbsp; 48°24′W</span></div>
+<a class="scroll-cue" href="#essencia"><span>VÁ COM CALMA. TEM MAIS.</span><span aria-hidden="true">↓</span></a><div class="hero-wordmark" aria-hidden="true">zephýr</div>
+</section>
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>CAFÉ ESPECIAL</span><i>✳</i><span>BONS ENCONTROS</span><i>✳</i><span>BRUNCH SEM PRESSA</span><i>✳</i><span>FEITO COM CUIDADO</span><i>✳</i><span>CAFÉ ESPECIAL</span><i>✳</i><span>BONS ENCONTROS</span><i>✳</i><span>BRUNCH SEM PRESSA</span><i>✳</i><span>FEITO COM CUIDADO</span><i>✳</i></div></div>
+<section class="essence section-pad" id="essencia" data-chapter="A essência"><div class="section-top"><span class="eyebrow">01 / A NOSSA ESSÊNCIA</span><span class="tiny-label">UM CONVITE A ESTAR PRESENTE</span></div><div class="essence-grid"><h2 class="scroll-sentence"><span class="scroll-word">Tem</span> <span class="scroll-word">lugares</span> <span class="scroll-word">que</span><br><span class="scroll-word">fazem</span> <span class="scroll-word">a</span> <span class="scroll-word">gente</span><br><em><span class="scroll-word">ficar</span> <span class="scroll-word">mais</span> <span class="scroll-word">um</span> <span class="scroll-word">pouco.</span></em></h2><div class="essence-copy reveal"><span class="wind-mark" aria-hidden="true">〰</span><p>Zephýr vem de Zéfiro, o vento suave. Um nome que combina com o que a gente acredita: os melhores momentos merecem ser vividos com leveza.</p><p>Entre cafés especiais, receitas com um toque francês e uma mesa que acolhe, o convite é simples: respire, se acomode e aproveite.</p><a class="text-link" href="#ritual">Sinta o nosso ritmo <span aria-hidden="true">↓</span></a></div></div><div class="amenities reveal"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c5-5 13-5 18 0M6 12c3.5-3.5 8.5-3.5 12 0M9 16c1.7-1.7 4.3-1.7 6 0"/><circle cx="12" cy="20" r=".6"/></svg>Wi-Fi para ficar</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V4h7a5 5 0 0 1 0 10H5"/></svg>Estacionamento</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="7" r="2"/><circle cx="16" cy="7" r="2"/><path d="M5 16c0-4 4-7 7-7s7 3 7 7c0 5-4 3-7 3s-7 2-7-3Z"/></svg>Pets na área externa</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="13" cy="4" r="2"/><path d="m12 8-1 7h7l3 6M12 10h6M8 12a6 6 0 1 0 7 8"/></svg>Espaço acessível</span></div></section>
+<section class="menu-section section-pad" id="cardapio" data-chapter="Os sabores"><div class="section-top"><span class="eyebrow">02 / ESCOLHA SUA PAUSA</span><a class="text-link" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener">Cardápio completo <span aria-hidden="true">↗</span></a></div><div class="menu-heading"><h2 class="reveal">Qual é o sabor<br><em>do seu momento?</em></h2><p class="reveal">Do primeiro gole à última garfada,<br>há sempre um bom motivo para ficar.</p></div><div class="menu-filters" role="group" aria-label="Filtrar especialidades"><button class="active" data-filter="todos" aria-pressed="true">Um pouco de tudo <span>06</span></button><button data-filter="cafes" aria-pressed="false">Cafés & bebidas</button><button data-filter="brunch" aria-pressed="false">Brunch & salgados</button><button data-filter="doces" aria-pressed="false">Para adoçar</button></div>
+<p id="menu-count" class="sr-only" role="status">6 sugestões</p><div class="menu-grid">
+<article class="menu-card reveal" data-category="cafes"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Pequeno, cheio de presença no cardápio"><img src="./1000510493.jpg" alt="Xícara de espresso com crema dourada" width="853" height="1280" style="object-position:50% 60%" loading="lazy" decoding="async"><span class="photo-tag">O RITUAL DO CAFÉ</span><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>CAFÉS ESPECIAIS</span><span>01</span></div><h3>Pequeno, cheio de presença</h3><p>Um espresso para apreciar o café em cada detalhe.</p></article>
+<article class="menu-card reveal" data-category="brunch"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Uma manhã sem pressa no cardápio"><img src="./1000510485.jpg" alt="Croissant recheado servido em prato azul" width="853" height="1280" style="object-position:50% 59%" loading="lazy" decoding="async"><span class="photo-tag">SEM OLHAR O RELÓGIO</span><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>BRUNCH & SALGADOS</span><span>02</span></div><h3>Uma manhã sem pressa</h3><p>Croissant recheado para acompanhar uma conversa que rende.</p></article>
+<article class="menu-card reveal" data-category="doces"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Leveza em cada colherada no cardápio"><img src="./momento-pavlova-clean-2026-10.jpg" alt="Pavlova com morango, cereja e frutas vermelhas" width="720" height="1280" style="object-position:50% 76%" loading="lazy" decoding="async"><span class="photo-tag">UM CARINHO NO DIA</span><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>DOCES ARTESANAIS</span><span>03</span></div><h3>Leveza em cada colherada</h3><p>Pavlova com frutas para saborear devagar.</p></article>
+<article class="menu-card reveal" data-category="cafes"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Um novo jeito de refrescar no cardápio"><img src="./momento-espresso-aerado-clean-2026-10.jpg" alt="Espresso aerado gelado servido no Zephýr" width="720" height="1280" style="object-position:50% 66%" loading="lazy" decoding="async"><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>BEBIDAS GELADAS</span><span>04</span></div><h3>Um novo jeito de refrescar</h3><p>Espresso aerado gelado para dar outro ritmo à sua pausa.</p></article>
+<article class="menu-card reveal" data-category="brunch"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Sabor que abraça no cardápio"><img src="./momento-ciabatta-clean-2026-10.jpg" alt="Ciabatta recheada com queijo e folhas" width="720" height="1280" style="object-position:50% 72%" loading="lazy" decoding="async"><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>SALGADOS</span><span>05</span></div><h3>Sabor que abraça</h3><p>Ciabatta com pesto de tomate seco, queijo e rúcula.</p></article>
+<article class="menu-card reveal" data-category="doces"><a class="menu-image" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener" aria-label="Consultar Dois amores, uma pausa no cardápio"><img src="./momento-dois-amores-clean-2026-10.jpg" alt="Cake Dois Amores com morango e chocolate" width="1280" height="1280" style="object-position:50% 70%" loading="lazy" decoding="async"><span class="card-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>PARA ADOÇAR</span><span>06</span></div><h3>Dois amores, uma pausa</h3><p>Chocolate, creme e morango em um doce para ficar mais um pouco.</p></article></div><div class="menu-bottom"><p>Uma amostra dos nossos sabores.<br><span>Preços e disponibilidade no cardápio completo.</span></p><a class="button button-outline" href="https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm" target="_blank" rel="noopener">Explorar o cardápio <span aria-hidden="true">↗</span></a></div></section>
+<section class="ritual" id="ritual" data-chapter="O seu ritmo" aria-label="O ritmo do Zephýr"><div class="ritual-sticky"><div class="ritual-visual"><img id="ritual-image" src="./1000510491.jpg" alt="Café com arte na espuma, servido no Zephýr" style="object-position:50% 58%" width="853" height="1280" loading="lazy"><div class="ritual-overlay"></div><span class="eyebrow">TRÊS JEITOS DE ESTAR PRESENTE</span><span class="ritual-scroll-hint">Continue descendo <span aria-hidden="true">↓</span></span><div class="ritual-photo-footer"><span id="ritual-visual-caption">Tudo começa com um respiro.</span><span><b id="ritual-current">01</b> / 03</span></div><svg class="wind-lines" viewBox="0 0 500 400" fill="none" aria-hidden="true"><path d="M-50 300C150 100 240 490 550 50M-50 250C150 50 240 440 550 0M-50 350C150 150 240 540 550 100"/></svg><div class="ritual-progress-track" aria-hidden="true"><span id="ritual-progress"></span></div></div></div><div class="ritual-steps"><div class="ritual-step" data-position="50% 58%" data-step="0" data-image="./1000510491.jpg" data-caption="Tudo começa com um respiro."><span class="eyebrow">01 — RESPIRE</span><h2>O mundo corre.<br><em>Você não precisa.</em></h2><p>Deixe a pressa do lado de fora. Aqui, o cuidado com cada xícara já é parte da experiência.</p><span class="step-line" aria-hidden="true"></span></div><div class="ritual-step" data-position="50% 64%" data-step="1" data-image="./galeria-01.jpg" data-caption="O simples, feito com cuidado."><span class="eyebrow">02 — SABOREIE</span><h2>Um gole.<br><em>Muitas sensações.</em></h2><p>Experimente um método diferente. Divida um brunch. Descubra aquele doce que faz o dia mudar.</p><span class="step-line" aria-hidden="true"></span></div><div class="ritual-step" data-position="50% 58%" data-step="2" data-image="./1000510499.jpg" data-caption="Os bons ventos trazem bons encontros."><span class="eyebrow">03 — CONECTE</span><h2>O melhor daqui<br><em>é estar aqui.</em></h2><p>Uma conversa que rende. Uma ideia que aparece. Ou só você, uma xícara e um momento inteiro seu.</p><a class="text-link" href="#visite">Venha viver essa pausa <span aria-hidden="true">↗</span></a></div></div></section>
+<section class="coffee-finder section-pad"><div class="finder-symbol" aria-hidden="true">✳</div><div><span class="eyebrow">UMA DESCOBERTA EM UM TOQUE</span><h2>Existe um café<br><em>com o seu ritmo.</em></h2><p>Mais intenso, delicado ou refrescante?<br>A gente ajuda você a começar.</p></div><button class="button button-light" data-open-quiz>Encontre o seu café <span aria-hidden="true">↗</span></button></section>
+<section class="moments section-pad" id="momentos" data-chapter="Os detalhes"><div class="section-top"><span class="eyebrow">03 / PEQUENAS DESCOBERTAS</span><a class="text-link" href="https://www.instagram.com/zephyrcafebrasil/" target="_blank" rel="noopener">@zephyrcafebrasil <span aria-hidden="true">↗</span></a></div><div class="moments-heading"><h2 class="reveal">Sempre cabe<br><em>mais um momento.</em></h2><p>Uma conversa boa. Um sabor que surpreende.<br>Os detalhes fazem parte da pausa.</p></div><div class="gallery" id="gallery-grid"><button class="gallery-photo reveal" type="button" data-photo="./1000510487.jpg" data-caption="Cores e sabores que convidam a ficar." aria-label="Ampliar foto: Toast com queijo, tomates e folhas de manjericão"><img src="./1000510487.jpg" alt="Toast com queijo, tomates e folhas de manjericão" width="853" height="1280" style="object-position:50% 57%" loading="lazy" decoding="async"><span>PRAZER NO SIMPLES<b aria-hidden="true">↗</b></span></button>
+<button class="gallery-photo reveal" type="button" data-photo="./1000510492.jpg" data-caption="O encontro do café com uma pausa doce." aria-label="Ampliar foto: Café sendo servido sobre sorvete"><img src="./1000510492.jpg" alt="Café sendo servido sobre sorvete" width="853" height="1280" style="object-position:50% 58%" loading="lazy" decoding="async"><span>ENCONTROS QUE COMBINAM<b aria-hidden="true">↗</b></span></button>
+<button class="gallery-photo reveal" type="button" data-photo="./1000510495.jpg" data-caption="Café e brigadeiro. Às vezes, é só disso que o dia precisa." aria-label="Ampliar foto: Brigadeiro no prato com uma xícara de café ao fundo"><img src="./1000510495.jpg" alt="Brigadeiro no prato com uma xícara de café ao fundo" width="1024" height="1280" style="object-position:50% 53%" loading="lazy" decoding="async"><span>A FELICIDADE NOS DETALHES<b aria-hidden="true">↗</b></span></button></div><p class="gallery-footnote">Olhe de perto. Toque em uma foto para ampliar.</p></section>
+<section class="visit section-pad" id="visite" data-chapter="Como chegar"><div class="section-top"><span class="eyebrow">04 / SEU PRÓXIMO DESTINO</span><span class="tiny-label">INGLESES · FLORIANÓPOLIS</span></div><div class="visit-grid"><div class="visit-copy"><h2 class="reveal">Siga os<br><em>bons ventos.</em></h2><p class="visit-intro">A gente cuida do café.<br>Você só precisa chegar.</p><address>Rod. João Gualberto Soares, 56 · sala 7<br>Ingleses, Florianópolis · SC</address><div class="address-tools"><button type="button" class="text-link" id="copy-address" data-address="Rod. João Gualberto Soares, 56, sala 7, Ingleses, Florianópolis - SC, 88058-300">Copiar endereço <span aria-hidden="true">⧉</span></button><span id="copy-feedback" role="status" aria-live="polite"></span></div><div class="hours"><span>Segunda a sábado</span><strong>08h às 19h</strong><span>Domingo</span><span>Uma pausa por aqui também.</span></div><p class="holiday-note">Em feriados, confirme o horário pelo WhatsApp.</p><div class="visit-actions"><a class="button button-dark" href="https://maps.app.goo.gl/jxihtAwwZsuDpAo7A" target="_blank" rel="noopener">Traçar minha rota <span aria-hidden="true">↗</span></a><a class="text-link" href="https://wa.me/5548992034828?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20no%20Zeph%C3%BDr." target="_blank" rel="noopener">Reservar uma mesa ↗</a></div></div><div class="location-card"><div class="map-art" role="img" aria-label="Localização ilustrativa em Ingleses, Florianópolis"><span class="map-sea">ATLÂNTICO</span><span class="map-neighborhood">INGLESES</span><div class="map-road road-one"></div><div class="map-road road-two"></div><div class="map-road road-three"></div><div class="map-road road-four"></div><div class="map-pin"><span><i>z</i></span><b>Estamos aqui.</b></div><span class="map-road-label">Rod. João Gualberto Soares</span><span class="map-legend">ESQUEMA ILUSTRATIVO</span></div><a class="map-link" href="https://maps.app.goo.gl/jxihtAwwZsuDpAo7A" target="_blank" rel="noopener"><span><b>Zephýr Café</b><small>Abra a localização exata no Google Maps</small></span><span aria-hidden="true">↗</span></a></div></div></section>
+<section class="faq section-pad"><div><span class="eyebrow">ANTES DE VIR</span><h2>Bom saber.</h2><p>Ficou com outra dúvida?<br><a class="text-link" href="https://wa.me/5548992034828" target="_blank" rel="noopener">Converse com a gente ↗</a></p></div><div class="faq-list"><details><summary>Posso levar meu pet?<span aria-hidden="true">+</span></summary><p>Sim! Cães são bem-vindos na nossa área externa. Venha aproveitar essa pausa com seu companheiro.</p></details><details><summary>Preciso reservar uma mesa?<span aria-hidden="true">+</span></summary><p>Aceitamos reservas. Combine o horário e o número de pessoas diretamente pelo <a href="https://wa.me/5548992034828" target="_blank" rel="noopener">WhatsApp (48) 99203-4828</a>.</p></details><details><summary>Tem estacionamento e acessibilidade?<span aria-hidden="true">+</span></summary><p>Sim. O espaço conta com estacionamento e é acessível para pessoas com mobilidade reduzida.</p></details><details><summary>Posso pedir para receber em casa?<span aria-hidden="true">+</span></summary><p>Sim! Consulte a disponibilidade de entrega e faça seu pedido pelo <a href="https://www.ifood.com.br/delivery/florianopolis-sc/zephyr-cafe-ingleses/1a9e272a-1f96-4be6-ad75-3a91d06e67c6?utm_medium=share" target="_blank" rel="noopener">Zephýr no iFood ↗</a>.</p></details></div></section>
+</main>
+<footer class="footer"><div class="footer-top"><a class="brand" href="#inicio">zephýr<span>CAFÉ</span></a><p>Que os bons ventos<br>tragam você de volta.</p><div class="footer-social"><a href="https://www.instagram.com/zephyrcafebrasil/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://wa.me/5548992034828" target="_blank" rel="noopener">WhatsApp ↗</a></div><a class="back-top" href="#inicio" aria-label="Voltar ao topo">↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Zephýr Café</span><span>INGLESES, FLORIANÓPOLIS · FEITO PARA DESACELERAR</span><a href="https://www.ifood.com.br/delivery/florianopolis-sc/zephyr-cafe-ingleses/1a9e272a-1f96-4be6-ad75-3a91d06e67c6?utm_medium=share" target="_blank" rel="noopener">Pedir pelo iFood ↗</a></div></footer>
+<div class="mobile-cta"><a href="#cardapio">Ver cardápio <span>↗</span></a><a href="https://wa.me/5548992034828" target="_blank" rel="noopener">Reservar uma mesa <span>↗</span></a></div>
+<dialog class="photo-dialog" id="photo-dialog" aria-label="Galeria de fotos do Zephýr Café" aria-describedby="dialog-caption"><button class="dialog-close" id="close-dialog" aria-label="Fechar foto">×</button><div class="photo-viewer"><button type="button" class="photo-nav photo-prev" id="photo-prev" aria-label="Foto anterior">←</button><img id="dialog-image" alt=""><button type="button" class="photo-nav photo-next" id="photo-next" aria-label="Próxima foto">→</button></div><div class="photo-dialog-footer"><p id="dialog-caption"></p><span id="photo-counter" aria-live="polite">1 / 3</span></div></dialog>
+<dialog class="coffee-dialog" id="coffee-dialog" aria-labelledby="coffee-title"><button class="dialog-close" data-close-quiz aria-label="Fechar sugestão de café">×</button><span class="quiz-star" aria-hidden="true">✳</span><span class="eyebrow">SEU CAFÉ, SEU MOMENTO</span><h2 id="coffee-title">Como está<br><em>o seu ritmo hoje?</em></h2><div id="quiz-options"><button data-taste="intenso">Quero intensidade <span>↗</span></button><button data-taste="equilibrado">Busco equilíbrio <span>↗</span></button><button data-taste="leve">Prefiro delicadeza <span>↗</span></button><button data-taste="gelado">Preciso refrescar <span>↗</span></button></div><div id="quiz-result" hidden aria-live="polite"></div><button class="text-link quiz-reset" id="quiz-reset" hidden>Escolher outro ritmo ↺</button></dialog>
+<script>
+(() => {
+  'use strict';
+
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+  const motionPreference = typeof window.matchMedia === 'function'
+    ? window.matchMedia('(prefers-reduced-motion: reduce)')
+    : { matches: false };
+  const header = $('.site-header');
+  const progress = $('#scroll-progress');
+  const heroSection = $('.hero');
+  const heroArt = $('.hero-art');
+  const heroCopy = $('.hero-copy');
+  const heroWordmark = $('.hero-wordmark');
+  const menuButton = $('#menu-toggle');
+  const mobileMenu = $('#mobile-menu');
+  const essenceHeading = $('#essencia h2');
+  const scrollWords = $$('#essencia h2 .scroll-word');
+  const chapterSections = $$('[data-chapter][id]');
+  const chapterLinks = $$('#chapter-nav a');
+  const chapterLabel = $('#chapter-label');
+  const clamp = value => Math.min(1, Math.max(0, value));
+  let activeChapter = null;
+  document.documentElement.classList.add('js-scroll');
+
+  function setMenu(open) {
+    if (!menuButton || !mobileMenu) return;
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+    mobileMenu.classList.toggle('is-open', open);
+    mobileMenu.classList.toggle('open', open);
+    mobileMenu.hidden = !open;
+    document.body.classList.toggle('menu-open', open);
+  }
+
+  if (menuButton && mobileMenu) {
+    setMenu(false);
+    menuButton.addEventListener('click', () => {
+      setMenu(menuButton.getAttribute('aria-expanded') !== 'true');
+    });
+    $$('a', mobileMenu).forEach(link => link.addEventListener('click', () => setMenu(false)));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        setMenu(false);
+        menuButton.focus();
+      }
+    });
+    window.addEventListener('resize', () => {
+      if (window.getComputedStyle(menuButton).display === 'none') setMenu(false);
+    }, { passive: true });
+    document.addEventListener('click', event => {
+      if (menuButton.getAttribute('aria-expanded') === 'true' && !mobileMenu.contains(event.target) && !menuButton.contains(event.target)) setMenu(false);
+    });
+  }
+
+  let scrollScheduled = false;
+  let updateRitualOnScroll = null;
+  let settleRitualTransition = null;
+  function updateScroll() {
+    scrollScheduled = false;
+    const y = Math.max(0, window.scrollY);
+    const available = document.documentElement.scrollHeight - window.innerHeight;
+    const fraction = available > 0 ? Math.min(1, y / available) : 0;
+    if (header) header.classList.toggle('scrolled', y > 24);
+    if (progress) {
+      progress.style.transform = `scaleX(${fraction})`;
+      progress.setAttribute('aria-valuenow', String(Math.round(fraction * 100)));
+    }
+    const viewportHeight = window.innerHeight;
+    const heroBox = heroSection?.getBoundingClientRect();
+    if (heroBox && (motionPreference.matches || (heroBox.bottom > 0 && heroBox.top < viewportHeight))) {
+      const heroDistance = motionPreference.matches ? 0 : Math.max(0, -heroBox.top);
+      const heroOpen = clamp(heroDistance / Math.max(1, heroBox.height * 0.7));
+      if (heroArt) {
+        heroArt.style.setProperty('--hero-open', String(heroOpen));
+        heroArt.style.setProperty('--hero-drift', `${heroDistance * 0.085}px`);
+      }
+      if (heroCopy) heroCopy.style.setProperty('--copy-drift', `${heroDistance * -0.065}px`);
+      if (heroWordmark) {
+        heroWordmark.style.translate = motionPreference.matches ? 'none' : `0 ${heroDistance * -0.055}px`;
+      }
+    }
+    if (scrollWords.length && essenceHeading) {
+      const headingBox = essenceHeading.getBoundingClientRect();
+      const wordProgress = motionPreference.matches ? 1 : clamp((viewportHeight * 0.88 - headingBox.top) / Math.max(headingBox.height, viewportHeight * 0.5));
+      scrollWords.forEach((word, index) => word.classList.toggle('lit', wordProgress >= (index + 1) / scrollWords.length));
+    }
+    if (chapterSections.length) {
+      const readingLine = viewportHeight * 0.36;
+      let current = chapterSections[0];
+      chapterSections.forEach(section => {
+        if (section.getBoundingClientRect().top <= readingLine) current = section;
+      });
+      if (activeChapter !== current) {
+        activeChapter = current;
+        let selectedLink = null;
+        chapterLinks.forEach(link => {
+          const selected = link.hash === `#${current.id}`;
+          link.classList.toggle('active', selected);
+          if (selected) {
+            link.setAttribute('aria-current', 'location');
+            selectedLink = link;
+          } else link.removeAttribute('aria-current');
+        });
+        if (chapterLabel) chapterLabel.textContent = current.dataset.chapterLabel || current.dataset.label || current.dataset.chapter || selectedLink?.textContent.trim() || current.id;
+      }
+    }
+    if (updateRitualOnScroll) updateRitualOnScroll();
+  }
+  function scheduleScroll() {
+    if (!scrollScheduled) {
+      scrollScheduled = true;
+      window.requestAnimationFrame(updateScroll);
+    }
+  }
+  window.addEventListener('scroll', scheduleScroll, { passive: true });
+  window.addEventListener('resize', scheduleScroll, { passive: true });
+  updateScroll();
+
+  const revealElements = $$('.reveal');
+  // Content is visible before any observer runs. These classes only enhance
+  // animation; a missed callback must never leave a section hidden.
+  document.documentElement.classList.remove('js-reveal');
+  revealElements.forEach(element => element.classList.add('visible'));
+  if ('IntersectionObserver' in window && !motionPreference.matches) {
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+    revealElements.forEach(element => revealObserver.observe(element));
+  }
+  const handleMotionChange = event => {
+    if (event.matches) {
+      revealElements.forEach(element => element.classList.add('visible'));
+      if (heroWordmark) heroWordmark.style.translate = 'none';
+      settleRitualTransition?.();
+    }
+    updateScroll();
+  };
+  if (typeof motionPreference.addEventListener === 'function') motionPreference.addEventListener('change', handleMotionChange);
+  else motionPreference.addListener?.(handleMotionChange);
+
+  const filters = $$('[data-filter]');
+  const dishes = $$('[data-category]');
+  const normalizeCategory = value => String(value || '').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  function filterMenu(filter) {
+    filter = normalizeCategory(filter) || 'todos';
+    const categoriesFor = card => normalizeCategory(card.dataset.category).split(/[\s,]+/).filter(Boolean);
+    if (filter !== 'todos' && !dishes.some(card => categoriesFor(card).includes(filter))) filter = 'todos';
+    filters.forEach(button => {
+      const selected = normalizeCategory(button.dataset.filter) === filter;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
+    dishes.forEach(card => {
+      const categories = categoriesFor(card);
+      card.hidden = filter !== 'todos' && categories.length > 0 && !categories.includes(filter);
+      if (!card.hidden) card.classList.add('visible');
+    });
+    const visibleCount = dishes.filter(card => !card.hidden).length;
+    const count = $('#menu-count');
+    if (count) count.textContent = `${visibleCount} ${visibleCount === 1 ? 'sugestão' : 'sugestões'}`;
+    scheduleScroll();
+  }
+  filters.forEach(button => button.addEventListener('click', event => {
+    event.preventDefault();
+    filterMenu(button.dataset.filter);
+  }));
+  if (filters.length) filterMenu(filters.find(button => button.classList.contains('active'))?.dataset.filter || 'todos');
+
+  function openDialog(dialog) {
+    if (!dialog) return;
+    try {
+      if (typeof dialog.showModal === 'function') {
+        if (!dialog.open) dialog.showModal();
+      } else dialog.setAttribute('open', '');
+    } catch {
+      dialog.setAttribute('open', '');
+    }
+    document.body.classList.add('dialog-open');
+  }
+  function closeDialog(dialog) {
+    if (!dialog) return;
+    if (typeof dialog.close === 'function') dialog.close();
+    else dialog.removeAttribute('open');
+    document.body.classList.toggle('dialog-open', $$('dialog[open]').length > 0);
+  }
+  $$('dialog').forEach(dialog => {
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const box = dialog.getBoundingClientRect();
+      if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) {
+        closeDialog(dialog);
+      }
+    });
+    dialog.addEventListener('close', () => document.body.classList.toggle('dialog-open', $$('dialog[open]').length > 0));
+    $$('[data-close-dialog]', dialog).forEach(button => button.addEventListener('click', () => closeDialog(dialog)));
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    const openDialogs = $$('dialog[open]');
+    const topDialog = openDialogs[openDialogs.length - 1];
+    if (topDialog && typeof topDialog.showModal !== 'function') closeDialog(topDialog);
+  });
+
+  const photoDialog = $('#photo-dialog');
+  const dialogImage = $('#dialog-image');
+  const dialogCaption = $('#dialog-caption');
+  const photoCounter = $('#photo-counter');
+  const photoPrevious = $('#photo-prev');
+  const photoNext = $('#photo-next');
+  const photoButtons = $$('[data-photo]').filter(button => button.dataset.photo || $('img', button)?.getAttribute('src'));
+  let photoIndex = 0;
+  if (photoCounter) {
+    photoCounter.setAttribute('aria-live', 'polite');
+    photoCounter.setAttribute('aria-atomic', 'true');
+  }
+  if (photoPrevious) photoPrevious.disabled = photoButtons.length < 2;
+  if (photoNext) photoNext.disabled = photoButtons.length < 2;
+  function showPhoto(index) {
+    if (!dialogImage || !photoButtons.length) return;
+    photoIndex = (index + photoButtons.length) % photoButtons.length;
+    const button = photoButtons[photoIndex];
+    const caption = button.dataset.caption || $('img', button)?.alt || 'Um momento no Zephýr';
+    const source = button.dataset.photo || $('img', button)?.getAttribute('src');
+    if (source && dialogImage.getAttribute('src') !== source) dialogImage.src = source;
+    dialogImage.alt = caption;
+    if (dialogCaption) dialogCaption.textContent = caption;
+    if (photoCounter) photoCounter.textContent = `${photoIndex + 1} / ${photoButtons.length}`;
+  }
+  photoButtons.forEach((button, index) => {
+    button.addEventListener('click', event => {
+      event.preventDefault();
+      if (!photoDialog || !dialogImage) return;
+      showPhoto(index);
+      openDialog(photoDialog);
+    });
+  });
+  photoPrevious?.addEventListener('click', () => showPhoto(photoIndex - 1));
+  photoNext?.addEventListener('click', () => showPhoto(photoIndex + 1));
+  document.addEventListener('keydown', event => {
+    if (!(photoDialog?.open || photoDialog?.hasAttribute('open')) || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      showPhoto(photoIndex + (event.key === 'ArrowLeft' ? -1 : 1));
+    }
+  });
+  $('#close-dialog')?.addEventListener('click', () => closeDialog(photoDialog));
+
+  const galleryGrid = $('#gallery-grid');
+  const galleryToggle = $('#gallery-toggle');
+  const galleryExtras = $$('[data-gallery-extra]', galleryGrid || document);
+  if (galleryToggle && galleryExtras.length) {
+    function expandGallery(expanded) {
+      galleryExtras.forEach(photo => { photo.hidden = !expanded; });
+      galleryToggle.setAttribute('aria-expanded', String(expanded));
+      galleryToggle.textContent = expanded ? 'Mostrar menos' : `Ver as ${$$('[data-photo]', galleryGrid || document).length} fotos`;
+      scheduleScroll();
+    }
+    if (galleryGrid) galleryToggle.setAttribute('aria-controls', 'gallery-grid');
+    expandGallery(false);
+    galleryToggle.addEventListener('click', () => {
+      const expanded = galleryToggle.getAttribute('aria-expanded') !== 'true';
+      expandGallery(expanded);
+      if (!expanded && galleryGrid && galleryToggle.getBoundingClientRect().top < 0) {
+        galleryGrid.scrollIntoView({ behavior: motionPreference.matches ? 'auto' : 'smooth', block: 'start' });
+      }
+    });
+  }
+
+  const coffeeDialog = $('#coffee-dialog');
+  const quizOptions = $('#quiz-options');
+  const quizResult = $('#quiz-result');
+  const quizReset = $('#quiz-reset');
+  const recommendations = {
+    intenso: {
+      title: 'Seu momento pede um espresso.',
+      description: 'Curto, marcante e cheio de presença. Comece por um espresso e converse com a equipe sobre o café do dia.',
+      label: 'INTENSO · QUENTE'
+    },
+    equilibrado: {
+      title: 'Vá de café filtrado.',
+      description: 'Um preparo para apreciar com calma. Peça à equipe um café de perfil equilibrado e descubra as notas de cada xícara.',
+      label: 'EQUILIBRADO · FEITO COM CALMA'
+    },
+    leve: {
+      title: 'Descubra a delicadeza dos filtrados.',
+      description: 'Que tal explorar um café mais suave? Pergunte pelos grãos e métodos disponíveis e encontre a sua combinação.',
+      label: 'SUAVE · AROMÁTICO'
+    },
+    gelado: {
+      title: 'Espresso aerado gelado, por favor.',
+      description: 'Uma pausa refrescante com a personalidade do café. Confira essa e outras bebidas geladas no cardápio.',
+      label: 'REFRESCANTE · GELADO'
+    }
+  };
+  function resetQuiz() {
+    if (quizOptions) quizOptions.hidden = false;
+    if (quizResult) {
+      quizResult.hidden = true;
+      quizResult.replaceChildren();
+    }
+    if (quizReset) quizReset.hidden = true;
+    $$('[data-taste]').forEach(button => button.setAttribute('aria-pressed', 'false'));
+  }
+  $$('[data-open-quiz]').forEach(button => button.addEventListener('click', () => {
+    resetQuiz();
+    openDialog(coffeeDialog);
+  }));
+  $$('[data-taste]').forEach(button => button.addEventListener('click', () => {
+    const recommendation = recommendations[button.dataset.taste];
+    if (!recommendation || !quizResult) return;
+    $$('[data-taste]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
+    const label = document.createElement('p');
+    label.className = 'eyebrow';
+    label.textContent = recommendation.label;
+    const heading = document.createElement('h3');
+    heading.textContent = recommendation.title;
+    const description = document.createElement('p');
+    description.textContent = recommendation.description;
+    const link = document.createElement('a');
+    link.className = 'button button-dark';
+    link.href = 'https://zephyrcafe.saipos.com/zephr-cafe/table/dsqdqsm';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = 'Explorar o cardápio ↗';
+    quizResult.replaceChildren(label, heading, description, link);
+    quizResult.hidden = false;
+    quizResult.tabIndex = -1;
+    if (quizOptions) quizOptions.hidden = true;
+    if (quizReset) quizReset.hidden = false;
+    quizResult.focus({ preventScroll: true });
+  }));
+  quizReset?.addEventListener('click', () => {
+    resetQuiz();
+    $('[data-taste]', quizOptions || document)?.focus();
+  });
+  $('#close-quiz')?.addEventListener('click', () => closeDialog(coffeeDialog));
+  $$('[data-close-quiz]').forEach(button => button.addEventListener('click', () => closeDialog(coffeeDialog)));
+
+  const ritualSteps = $$('.ritual-step');
+  const ritualVisual = $('.ritual-visual');
+  const ritualImage = ritualVisual?.matches('img') ? ritualVisual : ritualVisual && $('img', ritualVisual);
+  const ritualCaption = $('#ritual-visual-caption');
+  const ritualCurrent = $('#ritual-current');
+  const ritualProgress = $('#ritual-progress');
+  let currentStep = null;
+  let ritualSwapTimer = null;
+  function selectRitual(step) {
+    if (!step || currentStep === step) return;
+    const initial = currentStep === null;
+    currentStep = step;
+    if (ritualSwapTimer) window.clearTimeout(ritualSwapTimer);
+    ritualSteps.forEach(item => item.classList.toggle('active', item === step));
+    if (ritualCurrent) ritualCurrent.textContent = String(ritualSteps.indexOf(step) + 1).padStart(2, '0');
+    const swap = () => {
+      if (ritualSwapTimer) window.clearTimeout(ritualSwapTimer);
+      ritualSwapTimer = null;
+      settleRitualTransition = null;
+      if (ritualImage) {
+        if (step.dataset.image && ritualImage.getAttribute('src') !== step.dataset.image) ritualImage.src = step.dataset.image;
+        ritualImage.alt = step.dataset.caption || '';
+        ritualImage.style.objectPosition = step.dataset.position || '50% 50%';
+        ritualImage.style.opacity = '';
+      }
+      if (ritualCaption) ritualCaption.textContent = step.dataset.caption || '';
+      ritualVisual?.classList.remove('is-changing');
+    };
+    settleRitualTransition = swap;
+    if (initial || motionPreference.matches || !ritualImage || !step.dataset.image || ritualImage.getAttribute('src') === step.dataset.image) swap();
+    else {
+      ritualVisual?.classList.add('is-changing');
+      ritualImage.style.opacity = '0';
+      ritualSwapTimer = window.setTimeout(swap, 180);
+    }
+  }
+  if (ritualSteps.length) {
+    const ritualSection = $('#ritual');
+    const ritualSticky = $('.ritual-sticky');
+    const mobileCta = $('.mobile-cta');
+    updateRitualOnScroll = () => {
+      const viewportHeight = window.innerHeight;
+      const headerBottom = Math.min(viewportHeight, Math.max(0, header?.getBoundingClientRect().bottom || 0));
+      const sectionBox = ritualSection?.getBoundingClientRect();
+      if (sectionBox && (sectionBox.bottom <= headerBottom || sectionBox.top >= viewportHeight)) return;
+      const stepsWithBoxes = ritualSteps.map(step => ({ step, box: step.getBoundingClientRect() }));
+      const photoBox = ritualSticky?.getBoundingClientRect();
+      const photoPosition = ritualSticky ? window.getComputedStyle(ritualSticky).position : '';
+      const photoOverlaysCopy = photoBox && ['sticky', 'fixed'].includes(photoPosition)
+        && photoBox.top < viewportHeight && photoBox.bottom > headerBottom
+        && stepsWithBoxes.some(({ box }) => photoBox.left < box.right - 1 && photoBox.right > box.left + 1);
+      const readableTop = Math.max(headerBottom, photoOverlaysCopy ? Math.min(viewportHeight, photoBox.bottom) : 0);
+      const ctaBox = mobileCta?.getBoundingClientRect();
+      const ctaIsFixed = mobileCta && window.getComputedStyle(mobileCta).position === 'fixed';
+      const readableBottom = ctaIsFixed && ctaBox.height > 0 ? Math.min(viewportHeight, ctaBox.top) : viewportHeight;
+      if (readableBottom - readableTop < 32) return;
+      const visibleSteps = stepsWithBoxes.filter(({ box }) => box.height > 0 && box.width > 0 && box.bottom > readableTop + 1 && box.top < readableBottom - 1);
+      if (!visibleSteps.length) return;
+      const readingLine = readableTop + (readableBottom - readableTop) * 0.44;
+      let closest = visibleSteps[0];
+      let shortestDistance = Infinity;
+      for (const candidate of visibleSteps) {
+        const { box } = candidate;
+        const distance = readingLine < box.top ? box.top - readingLine : readingLine > box.bottom ? readingLine - box.bottom : 0;
+        if (distance < shortestDistance) {
+          closest = candidate;
+          shortestDistance = distance;
+        }
+      }
+      selectRitual(closest.step);
+      if (ritualProgress) {
+        const stepIndex = ritualSteps.indexOf(closest.step);
+        const stepProgress = clamp((readingLine - closest.box.top) / closest.box.height);
+        const stageProgress = clamp((stepIndex + stepProgress) / ritualSteps.length);
+        ritualProgress.style.transform = `scaleX(${stageProgress})`;
+        ritualProgress.setAttribute('aria-valuenow', String(Math.round(stageProgress * 100)));
+      }
+    };
+  }
+  selectRitual(ritualSteps[0]);
+  updateRitualOnScroll?.();
+
+  const copyAddress = $('#copy-address');
+  const copyFeedback = $('#copy-feedback');
+  let copyFeedbackTimer = null;
+  if (copyFeedback) copyFeedback.setAttribute('aria-live', 'polite');
+  function copyWithSelection(text) {
+    const focused = document.activeElement;
+    const field = document.createElement('textarea');
+    field.value = text;
+    field.readOnly = true;
+    field.setAttribute('aria-hidden', 'true');
+    field.style.cssText = 'position:fixed;left:-10000px;top:0;opacity:0;';
+    document.body.append(field);
+    let copied = false;
+    try {
+      field.select();
+      field.setSelectionRange(0, text.length);
+      copied = typeof document.execCommand === 'function' && document.execCommand('copy');
+    } finally {
+      field.remove();
+      focused?.focus?.({ preventScroll: true });
+    }
+    return copied;
+  }
+  copyAddress?.addEventListener('click', async () => {
+    const address = copyAddress.dataset.address;
+    if (!address) return;
+    let copied = false;
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(address);
+        copied = true;
+      }
+    } catch { /* The selection fallback also works when clipboard access is unavailable. */ }
+    if (!copied) {
+      try { copied = copyWithSelection(address); } catch { copied = false; }
+    }
+    copyAddress.classList.toggle('copied', copied);
+    if (copyFeedback) copyFeedback.textContent = copied ? 'Endereço copiado. Até já!' : 'Selecione o endereço acima para copiar.';
+    if (copyFeedbackTimer) window.clearTimeout(copyFeedbackTimer);
+    copyFeedbackTimer = window.setTimeout(() => {
+      copyAddress.classList.remove('copied');
+      if (copyFeedback) copyFeedback.textContent = '';
+    }, 6000);
+  });
+
+  const openStatus = $('#open-status');
+  function updateOpenStatus() {
+    if (!openStatus) return;
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Sao_Paulo', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+    }).formatToParts(new Date());
+    const local = Object.fromEntries(parts.map(part => [part.type, part.value]));
+    const hour = Number(local.hour);
+    const isSunday = local.weekday === 'Sun';
+    const isOpen = !isSunday && hour >= 8 && hour < 19;
+    openStatus.textContent = isOpen ? 'Aberto agora · até as 19h' : 'Fechado agora · seg a sáb, 8h–19h';
+    openStatus.classList.toggle('is-open', isOpen);
+    openStatus.classList.toggle('is-closed', !isOpen);
+  }
+  updateOpenStatus();
+  window.setInterval(updateOpenStatus, 60000);
+  if ($('#year')) $('#year').textContent = String(new Date().getFullYear());
+})();
+
+</script>
+</body></html>
